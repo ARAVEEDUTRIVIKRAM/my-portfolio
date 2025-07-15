@@ -5,6 +5,14 @@ import { motion } from 'framer-motion'; // ✅ Added for animations
 function Projects() {
   const projects = [
     {
+      title: 'File Sharing Management System',
+      description:
+        'Developed a secure, user-friendly file sharing application enabling effortless uploads, downloads, and shareable links, with automatic file expiry management.',
+      technologies: ['Java', 'Spring Boot', 'HTML', 'CSS', 'React.js', 'PostgreSQL', 'Docker', 'Render', 'Git'],
+      thumbnail: 'File_Sharing_Manager_Profile_img.png',
+      github: 'https://github.com/ARAVEEDUTRIVIKRAM/file-sharing-manager',
+    },
+    {
       title: 'Automated Optical Character Recognition (OCR) System',
       description:
         'Engineered an advanced OCR system for high-accuracy text extraction from images, significantly improving text recognition accuracy.',
